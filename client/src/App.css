@@ -2,16 +2,16 @@
 
 .App {
   text-align: center;
-  background-color: blue;
+  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-/* #282c34 */
+
 
 .heading {
   display: flex;
@@ -43,6 +43,10 @@
 
 .director > span{
   padding: 1em 0 1em 1em
+}
+
+.add {
+  padding: 3em 0 0 0
 }
 
 @keyframes App-logo-spin {

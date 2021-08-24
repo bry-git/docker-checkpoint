@@ -1,4 +1,4 @@
-FROM node:8.10-alpine
+FROM node:latest
 
 RUN mkdir -p /src/app
 
@@ -12,4 +12,4 @@ RUN yarn global add nodemon
 
 EXPOSE 8080
 
-CMD [ "npm", "start" ]
+CMD [ "npm", "start"]

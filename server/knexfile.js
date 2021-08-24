@@ -4,13 +4,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: {
-        host: '127.0.0.1',
-        port: '5432',
-        user: 'admin',
-        password: 'password',
-        database: 'postgres'
-    }
+    connection: 'postgres://admin:password@db:5432/postgres'
   },
 
   migrations: {

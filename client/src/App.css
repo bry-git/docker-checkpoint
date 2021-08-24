@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  background-color:#282c34;
+  background-color: blue;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,6 +10,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+/* #282c34 */
 
 .heading {
   display: flex;
